@@ -1,0 +1,56 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMULARIO</title>
+</head>
+<body>
+<FORm>
+    <fieldset>
+        <LEGEnd>DATOS PERSONALES</LEGEnd>
+
+        <LABEl>NOMBRE: </LABEl>
+        <INPUT TYPE="TEXT" name="ENOMBRE" placeholder="ESCRIBA AQUÍ" required>
+        
+        <LABel>1er APELLIDO: </LABel>
+        <INPut type="text" name="E1APELLIDOS" placeholder="ESCRIBA AQUÍ">
+
+        <LAbel>2o APELLIDO: </LAbel>
+        <INput type="text" name="E2APELLIDOS" placeholder="ESCRIBA AQUÍ">
+
+        <LABel>DNI: </LABel>
+        <INput type="text" maxlength="8" name="EDNI" placeholder="ESCRIBA AQUÍ">
+        
+        <LAbel>LETRA DNI: </LAbel>
+        <INput type="TEXT" maxlength="1"  name="EDNILETRA" size="1">
+
+        <LAbel>FECHA DE NACIMIENTO</LAbel>
+        <INput type="date" name="ENACIMIENTO"> <BR>
+        
+        <LABel>GÉNERO:</LABel><BR>
+        <INput type="radio" name="EGENERO" value="MASCULINO">
+        
+        <LAbel>MASCULINO</LAbel>
+        <INput type="radio" name="EGENERO" value="MASCULINO">
+        
+        <LAbel>FEMENINO</LAbel>
+    </fieldset>
+    <FIEldset>
+        <LEGEnd>DATOS ACADÉMICOS</LEGEnd>
+
+        <SELect name="ETIPO">
+            <OPtion value="5" >BÁSICO 5€</OPtion>
+            <OPtion value="10" >PLUS 10€</OPtion>
+            <OPtion value="3000" selected>HAZTE PRO 3000€</OPtion>
+        </SELect><BR></BR>
+
+        <INput type="FILE" name="EARCHIVO"><BR></BR>
+        <LAbel>RESEÑA</LAbel>
+        <TExtarea name="ERESEÑA" placeholder="TEXTO..." rows="5" cols="6"></TExtarea>
+    </FIEldset>
+
+    <INput type="reset">
+    <INput type="submit">
+</body>
+</html>
